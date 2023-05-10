@@ -1,11 +1,34 @@
 body{
-    background-color: lightcyan;
+    background-color:#b2f29d;
+    font-family: 'Instrument Serif', serif;
 }
 .heading{
-    font-style: italic;
-    font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: white;
+    color: #ce2700;
 }
-h1{
-    color:rosybrown;
+.heading h3{
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.main_div{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    width: 100%;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    align-items: center;
+}
+.div_footer{
+    position: fixed;
+    color: #6c757d;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: #f5f5f5;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(151, 149, 149);
 }
