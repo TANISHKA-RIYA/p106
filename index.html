@@ -21,8 +21,13 @@
       <center>
       <div class="col-xs-12 main_div">
         <button class="btn btn-warning" onclick="startclassification()">START</button>
-        <h3 id="result_label">I CAN HEAR: </h3>
-        <h3 id="result_confidence">ACCURACY: </h3>
+        <div id="detection">
+          <h4>Detected dog : <span id="dogsound"></span></h4>
+          <h4>Detected cat : <span id="catsound"></span></h4>
+          <h4>Detected tiger : <span id="tigersound"></span></h4>
+          <h4>Detected cow : <span id="cowsound"></span></h4>
+        </div>
+        <h3></h3>I CAN HEAR:<span id="result_label"></span> </h3>
         <img src="eardefault.avif" id="image" height="300" width="300">
       </div>
       <div class="div_footer col-xs-12"><h5>developed by- Tanishka</h5></div>
